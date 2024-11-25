@@ -1,0 +1,50 @@
+Question 1:
+What is the correct syntax for adding inline CSS to an HTML element?
+
+a: <element style="CSS code">
+b: <element css="CSS code">
+c: <element inline="CSS code">
+d: <element addcss="CSS code">
+
+Answer: a
+
+Question 2:
+Which of the following is the correct syntax for adding an internal stylesheet to an HTML document?
+
+a:
+<html>
+    <style type="text/css">
+        CSS code
+    </style>
+</html>
+
+b:
+<body>
+    <style>
+        CSS code
+    </style>
+</body>
+
+c:
+<head>
+    <style>
+        CSS code
+    </style>
+</head>
+
+d:
+<style type="text/css">
+    CSS code
+</style>
+
+answer: c
+
+Question 3:
+What is the correct syntax for linking an external stylesheet to an HTML document?
+
+a: <style href="style.css" rel="stylesheet" />
+b: <link href="style.css" rel="stylesheet" />
+c: <link src="style.css" rel="stylesheet" />
+d: <style src="style.css" type="type/css" />
+
+answer: b
