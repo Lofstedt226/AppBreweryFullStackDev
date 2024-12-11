@@ -1,0 +1,13 @@
+https://www.learnenough.com/command-line-tutorial
+
+
+MAC OS Terminal
+cd - Change Directory
+ls - List all files in Directory
+    use of * at the end such as ls * outputs everything in the set Directory
+    *.txt - Displays all files of type .txt
+
+touch - Create files
+rm - Remove files
+    rm  -f <> - force remove
+echo - print
