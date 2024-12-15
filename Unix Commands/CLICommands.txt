@@ -8,6 +8,14 @@ ls - List all files in Directory
     *.txt - Displays all files of type .txt
 
 touch - Create files
+
+open - Open files
+open -a /Applications/Visual\Studio\Code.app Text2.txt - Opens on VsCode
+
 rm - Remove files
     rm  -f <> - force remove
+rm * - remove all files
+rm -r - Remove Directory
+
+pwd - Print Working Directory
 echo - print
