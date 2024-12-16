@@ -8,6 +8,9 @@ ls - List all files in Directory
     *.txt - Displays all files of type .txt
 
 touch - Create files
+mkdir dirname --- make a new directory
+
+ff --- find files anywhere on the system. This can be extremely useful if you've forgotten in which directory you put a file, but do remember the name. In fact, if you use ff -p you don't even need the full name, just the beginning. This can also be useful for finding other things on the system, e.g. documentation.
 
 open - Open files
 open -a /Applications/Visual\Studio\Code.app Text2.txt - Opens on VsCode
@@ -19,3 +22,12 @@ rm -r - Remove Directory
 
 pwd - Print Working Directory
 echo - print
+
+more filename --- shows the first part of a file, just as much as will fit on one screen. Just hit the space bar to see more or q to quit. You can use /pattern to search for a pattern.
+emacs filename --- is an editor that lets you create and edit a file. See the emacs page.
+mv filename1 filename2 --- moves a file (i.e. gives it a different name, or moves it into a different directory (see below))
+cp filename1 filename2 --- copies a file
+rm filename --- removes a file. It is wise to use the option rm -i, which will ask you for confirmation before actually deleting anything. You can make this your default by making an alias in your .cshrc file.
+diff filename1 filename2 --- compares files, and shows where they differ
+wc filename --- tells you how many lines, words, and characters there are in a file
+chmod options filename --- lets you change the read, write, and execute permissions on your files. The default is that only you can look at them and change them, but you may sometimes want to change these permissions. For example, chmod o+r filename will make the file readable for everyone, and chmod o-r filename will make it unreadable for others again. Note that for someone to be able to actually look at the file the directories it is in need to be at least executable. See help protection for more details.
